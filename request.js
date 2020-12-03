@@ -2,7 +2,7 @@ const key ='8d82e17bc8b285661a57dcc0dbb79fec';
 
 
 const requestCity = async (city) => {
-    const baseURL = 'http://api.openweathermap.org/data/2.5/weather'
+    const baseURL = 'http://ip-api.com/json/?callback=yourfunction'
     const query = `?q=${city}&appid=${key}`;
 
     //make fetch call (promise call)
